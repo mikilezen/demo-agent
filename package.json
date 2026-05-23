@@ -1,0 +1,19 @@
+{
+  "name": "demo-ts-project",
+  "version": "1.0.0",
+  "description": "TS integration demo for AgentCourt SDK",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "agentcourt": "file:../packages/agentcourt-sdk",
+    "viem": "^2.50.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
